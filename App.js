@@ -1,5 +1,6 @@
 import { Text,View,StyleSheet } from "react-native";
 
+
 export default function App(){
   return(
     <View style={styles.container}>
@@ -18,7 +19,8 @@ const styles = StyleSheet.create({
     backgroundColor:"black",
   },
   darkModeText:{
-    color:"white"
+    color:"white",
+    backgroundColor:"green",
   },
   box:{
     width:100,
